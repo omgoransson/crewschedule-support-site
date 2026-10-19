@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Ota automaattinen työvuorotuonti käyttöön iOS 26:ssa · CrewSchedule">
+  <meta name="color-scheme" content="light dark">
+  <title>Automaattinen tuonti iOS 26:ssa · CrewSchedule</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=20261019">
+
+<link rel="stylesheet" href="../../assets/languages.css?v=20261019">
+<link rel="alternate" hreflang="en" href="https://crewschedule.omgmedia.se/automatic-import-ios26/">
+<link rel="alternate" hreflang="sv" href="https://crewschedule.omgmedia.se/sv/automatic-import-ios26/">
+<link rel="alternate" hreflang="nb" href="https://crewschedule.omgmedia.se/nb/automatic-import-ios26/">
+<link rel="alternate" hreflang="da" href="https://crewschedule.omgmedia.se/da/automatic-import-ios26/">
+<link rel="alternate" hreflang="fi" href="https://crewschedule.omgmedia.se/fi/automatic-import-ios26/">
+<link rel="alternate" hreflang="nl" href="https://crewschedule.omgmedia.se/nl/automatic-import-ios26/">
+<link rel="alternate" hreflang="de" href="https://crewschedule.omgmedia.se/de/automatic-import-ios26/">
+<link rel="alternate" hreflang="x-default" href="https://crewschedule.omgmedia.se/automatic-import-ios26/">
+<link rel="canonical" href="https://crewschedule.omgmedia.se/fi/automatic-import-ios26/">
+</head>
+<body>
+  <a class="skip" href="#main">Siirry sisältöön</a>
+  <header>
+    <div class="wrap bar">
+      <a class="brand" href="../">CrewSchedule</a>
+      <nav class="nav" aria-label="Päänavigointi">
+        <a href="../support/">Tuki</a>
+        <a href="../privacy/">Tietosuoja</a>
+
+      <details class="language-menu"><summary aria-label="Kieli: Suomi"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg><span class="language-name">Suomi</span><span class="language-code">FI</span><span aria-hidden="true">⌄</span></summary><nav class="language-options" aria-label="Valitse kieli"><a href="../../automatic-import-ios26/" lang="en" hreflang="en" aria-label="English">English</a><a href="../../sv/automatic-import-ios26/" lang="sv" hreflang="sv" aria-label="Svenska">Svenska</a><a href="../../nb/automatic-import-ios26/" lang="nb" hreflang="nb" aria-label="Norsk bokmål">Norsk bokmål</a><a href="../../da/automatic-import-ios26/" lang="da" hreflang="da" aria-label="Dansk">Dansk</a><a href="./" lang="fi" hreflang="fi" aria-label="Suomi" aria-current="page">Suomi</a><a href="../../nl/automatic-import-ios26/" lang="nl" hreflang="nl" aria-label="Nederlands">Nederlands</a><a href="../../de/automatic-import-ios26/" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a></nav></details></nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <div class="intro">
+      <p class="eyebrow">iOS 26 · iPadOS 26</p>
+      <h1>Automaattinen tuonti iOS 26:ssa</h1>
+      <p class="lead">Suosittelemme henkilökohtaista iPhoneasi, johon työvuorosähköpostit saapuvat. Määritä sähköpostiautomaatio kyseisessä laitteessa. Pidä tämä opas halutessasi auki toisella näytöllä.</p>
+      <p><a href="#path26.install">Aloita vaiheesta 1 →</a></p>
+      <p class="meta">Tämä opas koskee iOS- ja iPadOS 26:ta. Versiossa 27 käytä CrewSchedulessa tarjottua jaettua pikakomentoa. Painikkeiden nimet voivat vaihdella järjestelmän kielen mukaan.</p>
+    </div>
+    <div class="layout">
+      <nav class="contents" aria-label="Oppaan vaiheet">
+        <strong>Oppaan vaiheet</strong>
+        <a href="#path26.install">1. Tallenna tuontipikakomento</a>
+        <a href="#path26.openFile">2. Etsi tiedosto</a>
+        <a href="#path26.addShortcut">3. Lisää pikakomento</a>
+        <a href="#path26.trigger">4. Valitse sähköpostin käynnistin</a>
+        <a href="#path26.actions">5. Luo toiminnot</a>
+        <a href="#path26.text">6. Hae sähköpostin teksti</a>
+        <a href="#path26.content">7. Käytä sähköpostin sisältöä</a>
+        <a href="#path26.runShortcut">8. Lähetä teksti CrewScheduleen</a>
+        <a href="#path26.save">9. Tallenna yhdelle laitteelle</a>
+        <a href="#path26.firstRun">10. Tarkista seuraava sähköposti</a>
+        <a href="#help">Jos se ei toimi</a>
+      </nav>
+      <article>
+        <section id="path26.install" class="guide-step">
+          <p class="eyebrow">Vaihe 1 / 10</p>
+          <h2>Tallenna tuontipikakomento</h2>
+          <p>Avaa CrewSchedulessa Asetukset → Automaattinen tuonti. Valitse Jaa pikakomennon tiedosto ja tallenna se sitten Tiedostoihin.</p>
+          <p class="step-check">Tiedoston nimi on <code>CrewSchedule Import.shortcut</code>.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/save-to-files.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/save-to-files.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa näkyy CrewSchedule Import -pikakomennon tiedoston tallennus Tiedostoihin"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.openFile">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.openFile" class="guide-step">
+          <p class="eyebrow">Vaihe 2 / 10</p>
+          <h2>Etsi tiedosto</h2>
+          <p>Avaa Tiedostot ja etsi <code>CrewSchedule Import.shortcut</code> valitsemaasi kansioon.</p>
+          <p class="step-check">Palaa tähän CrewSchedule-oppaaseen aina, kun tarvitset seuraavan vaiheen.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/shortcut-file.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/shortcut-file.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa näkyy CrewSchedule Import.shortcut Tiedostot-apissa"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.addShortcut">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.addShortcut" class="guide-step">
+          <p class="eyebrow">Vaihe 3 / 10</p>
+          <h2>Lisää pikakomento</h2>
+          <p>Napauta tiedostoa ja lisää CrewSchedule Import Pikakomennot-appiin.</p>
+          <p class="step-check">Pikakomennon lisääminen ei luo sähköpostiautomaatiota.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/add-shortcut.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/add-shortcut.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa näkyy CrewSchedule Importin Lisää pikakomento -näkymä"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.trigger">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.trigger" class="guide-step">
+          <p class="eyebrow">Vaihe 4 / 10</p>
+          <h2>Valitse sähköpostin käynnistin</h2>
+          <p>Avaa Pikakomennot-apissa Automaatio, napauta +-painiketta, valitse Sähköposti ja aseta Lähettäjä-arvoksi <code>eFlightApplication@bristowgroup.com</code> ja Aihe sisältää <code>Schedule For</code>, ja valitse Suorita heti.</p>
+          <p class="step-check">Kaikkien suodattimien on täsmättävä. Tarkista, että tämä on tili, johon työvuorosähköposti saapuu.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/email-filters.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/email-filters.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa näkyvät sähköpostin lähettäjä-, aihe- ja suoritusajan suodattimet"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.actions">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.actions" class="guide-step">
+          <p class="eyebrow">Vaihe 5 / 10</p>
+          <h2>Luo automaation toiminnot</h2>
+          <p>Valitse sähköpostisuodattimen jälkeen Luo uusi pikakomento. Tämä luo toiminnot, jotka suoritetaan, kun suodattimeen sopiva sähköposti saapuu.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/create-automation-actions.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/create-automation-actions.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa näkyy Luo uusi pikakomento sähköpostisuodattimien asettamisen jälkeen"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.text">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.text" class="guide-step">
+          <p class="eyebrow">Vaihe 6 / 10</p>
+          <h2>Hae sähköpostin teksti</h2>
+          <p>Lisää Hae teksti syötteestä ja valitse Pikakomennon syöte.</p>
+          <p class="step-check">Tämä toiminto vastaanottaa suodattimeen sopivan sähköpostin sisällön.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/email-text-input.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/email-text-input.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa näkyy Hae teksti syötteestä ja valittu Pikakomennon syöte"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.content">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.content" class="guide-step">
+          <p class="eyebrow">Vaihe 7 / 10</p>
+          <h2>Käytä sähköpostin sisältöä</h2>
+          <p>Napauta Hae teksti syötteestä -toiminnon Pikakomennon syöte -kohtaa, avaa muuttujapaneeli ja valitse Sisältö.</p>
+          <p class="step-check">Tämä välittää sähköpostin varsinaisen sisällön tekstitoiminnolle.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/email-content-property.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/email-content-property.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa Sisältö-muuttuja on valittu Pikakomennon syötteelle"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.runShortcut">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.runShortcut" class="guide-step">
+          <p class="eyebrow">Vaihe 8 / 10</p>
+          <h2>Lähetä teksti CrewScheduleen</h2>
+          <p>Lisää Hae teksti syötteestä -toiminnon alle Suorita pikakomento ja valitse CrewSchedule Import. Laajenna toiminto ja aseta sen Syöte-arvoksi Hae teksti syötteestä -toiminnon tekstitulos.</p>
+          <p class="step-check">Tarkista Syöte-kenttä: pelkkä pikakomennon valitseminen ei riitä.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/run-shortcut-input.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/run-shortcut-input.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa Suorita pikakomento -toiminnoksi on asetettu CrewSchedule Import ja syötteeksi tekstin tulos"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.save">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.save" class="guide-step">
+          <p class="eyebrow">Vaihe 9 / 10</p>
+          <h2>Tallenna yhdelle laitteelle</h2>
+          <p>Tallenna automaatio. Pidä se käytössä vain laitteessa, joka vastaanottaa työvuorosähköpostit ja tuo ne. Jos pikakomennon tietosuoja-asetuksissa on Salli suoritus lukittuna -valinta, voit ottaa sen käyttöön halutessasi.</p>
+          <p class="step-check">Poista vanha automaatio käytöstä ennen kuin siirrät automaattisen tuonnin toiselle laitteelle.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/saved-automation.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/saved-automation.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulaattori, jossa näkyy tallennettu sähköpostiautomaatio"></a>
+            <figcaption>iPhone-simulaattori · iOS 26.5 · englanninkielinen käyttöliittymä · Suurenna napauttamalla</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.firstRun">Seuraava vaihe →</a>
+        </section>
+        <section id="path26.firstRun" class="guide-step">
+          <p class="eyebrow">Vaihe 10 / 10</p>
+          <h2>Tarkista seuraava työvuorosähköposti</h2>
+          <p>Salli käyttö, jos Pikakomennot pyytää sitä. Palaa CrewScheduleen ja vahvista automaation määritys. Tarkista tuontihistoria, kun seuraava oikea työvuorosähköposti saapuu.</p>
+          <p class="step-check">Voit viimeistellä käyttöönoton nyt; testisähköpostia ei tarvitse lähettää. Pikakomennon manuaalinen suoritus ei todista, että sähköpostikäynnistin toimii.</p>
+        </section>
+        <section id="help">
+          <h2>Jos se ei toimi</h2>
+          <p>Tarkista, että sähköposti saapui oikeaan tiliin, molemmat suodattimet täsmäävät ja automaatio suoritetaan heti. Tarkista sitten, että tekstin tulos on yhdistetty Suorita pikakomento -toimintoon. Avaa CrewSchedule-tuontihistoria ja tarkista virheet tai tarkistusta vaativat työvuorolistat.</p>
+          <p><a href="https://support.apple.com/guide/shortcuts/communication-triggers-apdd711f9dff/9.0/ios/26">Applen sähköpostikäynnistimien opas</a></p>
+          <p><a href="mailto:ola@omgmedia.se">ola@omgmedia.se</a></p>
+        </section>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap foot"><a href="../support/">← Tuki</a><a href="../privacy/">Tietosuojakäytäntö</a></div>
+  </footer>
+</body>
+</html>

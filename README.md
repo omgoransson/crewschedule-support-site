@@ -1,6 +1,6 @@
 # CrewSchedule support website
 
-Static English/Swedish product, support and current-beta privacy information. No build step, scripts, forms, analytics or third-party assets. Public contact: ola@omgmedia.se.
+Static product, support, privacy and setup pages in all seven app languages: English, Swedish, Norwegian Bokmål, Danish, Finnish, Dutch and German. Committed HTML is served directly, with no runtime scripts, forms, analytics or third-party assets. Public contact: ola@omgmedia.se.
 
 GitHub Pages: deploy `main` from `/` using the repository Pages settings. Keep this repository limited to the contents of `Site/` in the private/local app workspace. Do not publish the app repository, rosters, launch documents or test data.
 
@@ -18,3 +18,12 @@ The iOS/iPadOS 26 guide is at `/automatic-import-ios26/` and `/sv/automatic-impo
 The homepages now present the app before the help content: Today/Week screenshots, original/current comparison, optional Calendar/iCloud and paired Watch, then a beta enquiry link to ola@omgmedia.se. There is no public TestFlight or App Store link for CrewSchedule yet. Support content is retained on its own routes; the automatic-import guides and privacy pages link there. `assets/landing.css` is independent of the support-page stylesheet. All fonts/assets are local; animation respects reduced motion.
 
 The six required product images are `assets/product/{en,sv}/{today,week,detail}.png`, sourced from the ordinary app on the isolated iPhone 17 simulator. The intended example data are entirely fictional (`Design/LandingPage/demo-roster.txt` in the app workspace). All six genuine captures are included, with provenance and hashes in `assets/product/captures.json`. Both languages have been inspected on desktop and in the iPhone simulator’s Safari. Eight HTML pages and 196 local link/asset references pass validation; image alt text, dimensions and matching section anchors are checked. The original and updated fictional rosters pass the app’s real parser/import validation. Published to the existing GitHub Pages repository on 19 October 2026; no native app update is required. The homepages are the product presentation, and the support articles remain at their dedicated routes.
+
+
+## Seven-language website — 19 October 2026
+
+English uses the root paths. Swedish, Norwegian Bokmål, Danish, Finnish, Dutch and German use `/sv/`, `/nb/`, `/da/`, `/fi/`, `/nl/` and `/de/`. Each language has a product landing page, `support/`, `privacy/` and `automatic-import-ios26/`: 28 pages in total. The native language menu keeps the visitor on the matching page. All pages include alternate-language and canonical metadata. No automatic language detection, tracking cookie or JavaScript is added.
+
+The existing Swedish captures are retained; the five new languages use the genuine English screenshots with an explicit English-interface caption. Names such as CrewSchedule Import, the sender filter and Schedule For stay unchanged. Public contact remains ola@omgmedia.se. Translation does not change the privacy policy's beta limitations or data flows.
+
+In the app workspace, `Site/translations/en.json` owns the 200 source messages for the five new language catalogs; English and Swedish HTML remain the authored page templates. Regenerate using `python3 scripts/build-site-localizations.py`, then run `python3 scripts/check-site-localizations.py`. The check compares the seven website languages with the app catalog, checks all 28 page routes/sections, 875 local references, language-preserving navigation, image descriptions and source literals. Repeated generation must be identical. The public website repository needs no build step; update translations in the app workspace and publish only Site.

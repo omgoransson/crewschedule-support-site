@@ -1,0 +1,16 @@
+/* Native, keyboard-accessible language navigation shared by all page types. */
+.language-menu,details.language-menu:first-of-type{padding:0;border:0;margin:0}
+.language-menu{position:relative;font-size:14px;font-weight:600;letter-spacing:normal;flex-shrink:0}
+.language-menu>summary{display:flex;align-items:center;gap:7px;cursor:pointer;list-style:none;min-height:44px;padding-inline:7px;border-radius:8px}
+.language-menu>summary::-webkit-details-marker{display:none}
+.language-menu>summary:focus-visible,.language-options>a:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.language-menu[open]>summary{background:color-mix(in srgb,currentColor 6%,transparent)}
+.language-menu>.language-options{position:absolute;z-index:30;right:0;top:calc(100% + 8px);display:grid;gap:0;min-width:190px;padding:7px;border:1px solid var(--line,#cbdce8);border-radius:14px;background:var(--paper,#fff);color:var(--ink,#172d43);box-shadow:0 12px 32px #132d4320;font-size:14px;text-align:left}
+.language-menu .language-options>a{display:block;min-height:44px;padding:11px 13px;border-radius:8px;white-space:nowrap;text-decoration:none;font-weight:500}
+.language-menu .language-options>a:hover,.language-menu .language-options>a[aria-current=page]{background:color-mix(in srgb,currentColor 8%,transparent);color:inherit}
+.language-menu .language-options>a[aria-current=page]{font-weight:750}
+.language-code{display:none}
+@media(max-width:600px){.bar{flex-wrap:wrap;row-gap:6px;padding-block:14px}.bar>.brand{margin-right:auto}.bar>.nav{flex-wrap:wrap;gap:16px}.language-menu{font-size:13px}}
+@media(max-width:360px){.language-name{display:none}.language-code{display:inline}.site-header nav{gap:10px}}
+.language-menu>.language-options{max-height:calc(100svh - 95px);overflow-y:auto;overscroll-behavior:contain}
+h1,h2{overflow-wrap:anywhere;hyphens:auto}

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Konfigurer automatisk import av vaktplan på iOS 26 · CrewSchedule">
+  <meta name="color-scheme" content="light dark">
+  <title>Automatisk import på iOS 26 · CrewSchedule</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=20261019">
+
+<link rel="stylesheet" href="../../assets/languages.css?v=20261019">
+<link rel="alternate" hreflang="en" href="https://crewschedule.omgmedia.se/automatic-import-ios26/">
+<link rel="alternate" hreflang="sv" href="https://crewschedule.omgmedia.se/sv/automatic-import-ios26/">
+<link rel="alternate" hreflang="nb" href="https://crewschedule.omgmedia.se/nb/automatic-import-ios26/">
+<link rel="alternate" hreflang="da" href="https://crewschedule.omgmedia.se/da/automatic-import-ios26/">
+<link rel="alternate" hreflang="fi" href="https://crewschedule.omgmedia.se/fi/automatic-import-ios26/">
+<link rel="alternate" hreflang="nl" href="https://crewschedule.omgmedia.se/nl/automatic-import-ios26/">
+<link rel="alternate" hreflang="de" href="https://crewschedule.omgmedia.se/de/automatic-import-ios26/">
+<link rel="alternate" hreflang="x-default" href="https://crewschedule.omgmedia.se/automatic-import-ios26/">
+<link rel="canonical" href="https://crewschedule.omgmedia.se/nb/automatic-import-ios26/">
+</head>
+<body>
+  <a class="skip" href="#main">Hopp til innhold</a>
+  <header>
+    <div class="wrap bar">
+      <a class="brand" href="../">CrewSchedule</a>
+      <nav class="nav" aria-label="Hovednavigering">
+        <a href="../support/">Brukerstøtte</a>
+        <a href="../privacy/">Personvern</a>
+
+      <details class="language-menu"><summary aria-label="Språk: Norsk bokmål"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg><span class="language-name">Norsk bokmål</span><span class="language-code">NB</span><span aria-hidden="true">⌄</span></summary><nav class="language-options" aria-label="Velg språk"><a href="../../automatic-import-ios26/" lang="en" hreflang="en" aria-label="English">English</a><a href="../../sv/automatic-import-ios26/" lang="sv" hreflang="sv" aria-label="Svenska">Svenska</a><a href="./" lang="nb" hreflang="nb" aria-label="Norsk bokmål" aria-current="page">Norsk bokmål</a><a href="../../da/automatic-import-ios26/" lang="da" hreflang="da" aria-label="Dansk">Dansk</a><a href="../../fi/automatic-import-ios26/" lang="fi" hreflang="fi" aria-label="Suomi">Suomi</a><a href="../../nl/automatic-import-ios26/" lang="nl" hreflang="nl" aria-label="Nederlands">Nederlands</a><a href="../../de/automatic-import-ios26/" lang="de" hreflang="de" aria-label="Deutsch">Deutsch</a></nav></details></nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <div class="intro">
+      <p class="eyebrow">iOS 26 · iPadOS 26</p>
+      <h1>Automatisk import på iOS 26</h1>
+      <p class="lead">Vi anbefaler den private iPhonen din som mottar e-posten med vaktplanen. Konfigurer e-postautomatiseringen på den enheten. Ha gjerne denne veiledningen åpen på en annen skjerm mens du følger den.</p>
+      <p><a href="#path26.install">Start med trinn 1 →</a></p>
+      <p class="meta">Denne veiledningen gjelder iOS og iPadOS 26. På versjon 27 bruker du den delte snarveien som tilbys i CrewSchedule. Knappenavn kan variere med systemspråket.</p>
+    </div>
+    <div class="layout">
+      <nav class="contents" aria-label="Veiledningstrinn">
+        <strong>Veiledningstrinn</strong>
+        <a href="#path26.install">1. Lagre importsnarveien</a>
+        <a href="#path26.openFile">2. Finn filen</a>
+        <a href="#path26.addShortcut">3. Legg til snarveien</a>
+        <a href="#path26.trigger">4. Velg e-postutløseren</a>
+        <a href="#path26.actions">5. Opprett handlingene</a>
+        <a href="#path26.text">6. Hent e-postteksten</a>
+        <a href="#path26.content">7. Bruk e-postinnholdet</a>
+        <a href="#path26.runShortcut">8. Send tekst til CrewSchedule</a>
+        <a href="#path26.save">9. Lagre på én enhet</a>
+        <a href="#path26.firstRun">10. Kontroller neste e-post</a>
+        <a href="#help">Hvis det ikke fungerer</a>
+      </nav>
+      <article>
+        <section id="path26.install" class="guide-step">
+          <p class="eyebrow">Trinn 1 / 10</p>
+          <h2>Lagre importsnarveien</h2>
+          <p>Åpne Innstillinger → Automatisk import i CrewSchedule. Velg Del snarveifil, og lagre den deretter i Filer.</p>
+          <p class="step-check">Filen heter <code>CrewSchedule Import.shortcut</code>.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/save-to-files.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/save-to-files.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser valget om å lagre CrewSchedule Import-snarveisfilen i Filer"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.openFile">Neste trinn →</a>
+        </section>
+        <section id="path26.openFile" class="guide-step">
+          <p class="eyebrow">Trinn 2 / 10</p>
+          <h2>Finn filen</h2>
+          <p>Åpne Filer og finn <code>CrewSchedule Import.shortcut</code> i mappen du valgte.</p>
+          <p class="step-check">Gå tilbake til denne veiledningen i CrewSchedule når du trenger neste trinn.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/shortcut-file.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/shortcut-file.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser CrewSchedule Import.shortcut i Filer-appen"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.addShortcut">Neste trinn →</a>
+        </section>
+        <section id="path26.addShortcut" class="guide-step">
+          <p class="eyebrow">Trinn 3 / 10</p>
+          <h2>Legg til snarveien</h2>
+          <p>Trykk på filen og legg til CrewSchedule Import i Snarveier.</p>
+          <p class="step-check">Når du legger til snarveien, opprettes det ikke en e-postautomatisering.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/add-shortcut.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/add-shortcut.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser skjermen Legg til snarvei for CrewSchedule Import"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.trigger">Neste trinn →</a>
+        </section>
+        <section id="path26.trigger" class="guide-step">
+          <p class="eyebrow">Trinn 4 / 10</p>
+          <h2>Velg e-postutløseren</h2>
+          <p>Åpne Automatisering i Snarveier, trykk på +, velg E-post, angi Avsender til <code>eFlightApplication@bristowgroup.com</code> og Emne inneholder <code>Schedule For</code>, og velg Kjør umiddelbart.</p>
+          <p class="step-check">Alle filtrene må samsvare. Kontroller at dette er kontoen som mottar e-post med vaktplanen din.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/email-filters.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/email-filters.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser filter for e-postavsender, emne og kjøretidspunkt"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.actions">Neste trinn →</a>
+        </section>
+        <section id="path26.actions" class="guide-step">
+          <p class="eyebrow">Trinn 5 / 10</p>
+          <h2>Opprett automatiseringens handlinger</h2>
+          <p>Etter e-postfilteret velger du Opprett ny snarvei. Da opprettes handlingene som kjøres når en e-post som samsvarer, kommer inn.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/create-automation-actions.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/create-automation-actions.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser Opprett ny snarvei etter at e-postfiltrene er angitt"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.text">Neste trinn →</a>
+        </section>
+        <section id="path26.text" class="guide-step">
+          <p class="eyebrow">Trinn 6 / 10</p>
+          <h2>Hent e-postteksten</h2>
+          <p>Legg til Hent tekst fra inndata og velg Snarveisinndata.</p>
+          <p class="step-check">Denne handlingen mottar innholdet fra e-posten som samsvarer.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/email-text-input.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/email-text-input.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser Hent tekst fra inndata med Snarveisinndata valgt"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.content">Neste trinn →</a>
+        </section>
+        <section id="path26.content" class="guide-step">
+          <p class="eyebrow">Trinn 7 / 10</p>
+          <h2>Bruk e-postinnholdet</h2>
+          <p>Trykk på Snarveisinndata i Hent tekst fra inndata, utvid variabelpanelet og velg Innhold.</p>
+          <p class="step-check">Dette sender det faktiske e-postinnholdet til teksthandlingen.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/email-content-property.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/email-content-property.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser variabelen Innhold valgt for Snarveisinndata"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.runShortcut">Neste trinn →</a>
+        </section>
+        <section id="path26.runShortcut" class="guide-step">
+          <p class="eyebrow">Trinn 8 / 10</p>
+          <h2>Send teksten til CrewSchedule</h2>
+          <p>Under Hent tekst fra inndata legger du til Kjør snarvei og velger CrewSchedule Import. Utvid handlingen og sett Inndata til tekstresultatet fra Hent tekst fra inndata.</p>
+          <p class="step-check">Kontroller Inndata-feltet: Det er ikke nok å velge snarveien.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/run-shortcut-input.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/run-shortcut-input.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser Kjør snarvei satt til CrewSchedule Import med tekstresultatet som inndata"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.save">Neste trinn →</a>
+        </section>
+        <section id="path26.save" class="guide-step">
+          <p class="eyebrow">Trinn 9 / 10</p>
+          <h2>Lagre på én enhet</h2>
+          <p>Lagre automatiseringen. La den bare være aktiv på enheten som mottar og importerer e-postene med vaktplanen. Hvis snarveien tilbyr Tillat kjøring når låst under personverninnstillingene, kan du slå det på hvis du vil.</p>
+          <p class="step-check">Slå av den gamle automatiseringen før du flytter automatisk import til en annen enhet.</p>
+          <figure class="guide-figure">
+            <a href="../../assets/automation/ios26/en/saved-automation.png" target="_blank" rel="noopener"><img src="../../assets/automation/ios26/en/saved-automation.png" loading="lazy" width="1206" height="2622" alt="iPhone-simulator som viser den lagrede e-postautomatiseringen"></a>
+            <figcaption>iPhone-simulator · iOS 26.5 · engelsk grensesnitt · Trykk for å forstørre</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.firstRun">Neste trinn →</a>
+        </section>
+        <section id="path26.firstRun" class="guide-step">
+          <p class="eyebrow">Trinn 10 / 10</p>
+          <h2>Kontroller neste vaktplan-e-post</h2>
+          <p>Gi tilgang hvis Snarveier spør. Gå tilbake til CrewSchedule og bekreft at du har konfigurert automatiseringen. Kontroller importhistorikken når neste ekte vaktplan-e-post kommer.</p>
+          <p class="step-check">Du kan fullføre oppsettet nå; du trenger ikke sende en test-e-post. At du kjører snarveien manuelt, beviser ikke at e-postutløseren fungerer.</p>
+        </section>
+        <section id="help">
+          <h2>Hvis det ikke fungerer</h2>
+          <p>Kontroller at e-posten kom til riktig konto, at begge filtrene samsvarer, og at automatiseringen kjøres umiddelbart. Kontroller deretter at tekstresultatet er koblet til Kjør snarvei. Åpne importhistorikken i CrewSchedule for feil eller vaktplaner som må gjennomgås.</p>
+          <p><a href="https://support.apple.com/guide/shortcuts/communication-triggers-apdd711f9dff/9.0/ios/26">Apples veiledning for e-postutløsere</a></p>
+          <p><a href="mailto:ola@omgmedia.se">ola@omgmedia.se</a></p>
+        </section>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap foot"><a href="../support/">← Brukerstøtte</a><a href="../privacy/">Personvernerklæring</a></div>
+  </footer>
+</body>
+</html>

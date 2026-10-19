@@ -1,0 +1,126 @@
+{
+  "captured": "2026-10-19",
+  "device": "iPhone 17 simulator",
+  "os": "iOS 26.5",
+  "osBuild": "23F77",
+  "xcode": "27.0 (27A266a)",
+  "appearance": "light",
+  "dimensions": [
+    1206,
+    2622
+  ],
+  "source": "Unmodified simctl screenshots from isolated guide simulator; no mail account configured.",
+  "sender": "eFlightApplication@bristowgroup.com",
+  "subjectContains": "Schedule For",
+  "captures": [
+    {
+      "file": "en/save-to-files.png",
+      "sha256": "294543fd5485740a4b6ef5fa1d16f6437c80581b00366fb4a7b206a0857d2c1e",
+      "appAsset": true,
+      "step": "path26.install"
+    },
+    {
+      "file": "en/shortcut-file.png",
+      "sha256": "5599facacf4c7400924e07994294aca4d964d8614be1418cd5247f03261d838d",
+      "appAsset": true,
+      "step": "path26.openFile"
+    },
+    {
+      "file": "en/add-shortcut.png",
+      "sha256": "c9d6088a2fd3e7cdbf55475e494fe9522abb411a3714f2f4a4988cd4ef02c3ac",
+      "appAsset": true,
+      "step": "path26.addShortcut"
+    },
+    {
+      "file": "en/email-filters.png",
+      "sha256": "2cb7fe2a6a161a306169a6ec6aaa34747f9ac56dc9cfd08310c76a5b298bf15f",
+      "appAsset": true,
+      "step": "path26.trigger"
+    },
+    {
+      "file": "en/create-automation-actions.png",
+      "sha256": "8a51e23b444c70528b652d51f382bbe68fac81bd3c1af3cb0c1ad78efe785915",
+      "appAsset": true,
+      "step": "path26.actions"
+    },
+    {
+      "file": "en/email-text-input.png",
+      "sha256": "355519f6be558cb28175ca7f5d18229eefec6b7a388622f281bb3daf3b430a29",
+      "appAsset": true,
+      "step": "path26.text"
+    },
+    {
+      "file": "en/email-content-property.png",
+      "sha256": "2e979b023ec1dba4d6d1b9d6ea01fcb4ec59ba56c594865e163ba5dc1efab25c",
+      "appAsset": true,
+      "step": "path26.content"
+    },
+    {
+      "file": "en/run-shortcut-input.png",
+      "sha256": "b270d9d45dd9be5a0c7e9897617949ff6ce065e71add56545a330f9187351d26",
+      "appAsset": true,
+      "step": "path26.runShortcut"
+    },
+    {
+      "file": "en/saved-automation.png",
+      "sha256": "ef847417793aee9ed360c328ce1a51a3d4c1449fce26a5f5396b393c779afe0b",
+      "appAsset": true,
+      "step": "path26.save"
+    },
+    {
+      "file": "sv/save-to-files.png",
+      "sha256": "9b6e31ef0b89fa396e66fea8f0d1ec971186ef5d85a63619548ed1d4bcae0bfa",
+      "appAsset": true,
+      "step": "path26.install"
+    },
+    {
+      "file": "sv/shortcut-file.png",
+      "sha256": "0270650f13a4ea4876927cbd10c329249999433cdfdd2b596492e0d9745a31a9",
+      "appAsset": true,
+      "step": "path26.openFile"
+    },
+    {
+      "file": "sv/add-shortcut.png",
+      "sha256": "0541aa292fc894a5645882ede58a04b9f116f34c73f0214295b2e7c81cb57baa",
+      "appAsset": true,
+      "step": "path26.addShortcut"
+    },
+    {
+      "file": "sv/email-filters.png",
+      "sha256": "1a6dfee1e27a9ca372b86feb57bd44ef7227352e4ad3215fc0755b2eb0e58a39",
+      "appAsset": true,
+      "step": "path26.trigger"
+    },
+    {
+      "file": "sv/create-automation-actions.png",
+      "sha256": "99bd8110059ccd3c80636438927b6feebe5c654eb5dcec73b1cadbc807f7d32f",
+      "appAsset": true,
+      "step": "path26.actions"
+    },
+    {
+      "file": "sv/email-text-input.png",
+      "sha256": "1bd1e102202753bdd4cef4c62281222cde97b06ff208b476369be57a2fb5a719",
+      "appAsset": true,
+      "step": "path26.text"
+    },
+    {
+      "file": "sv/email-content-property.png",
+      "sha256": "c82f6786dc9eb453ddb85d9e08148a6ceb361b285223c2cb142481a4d5c8fe94",
+      "appAsset": true,
+      "step": "path26.content"
+    },
+    {
+      "file": "sv/run-shortcut-input.png",
+      "sha256": "71a1a9dabe2a4108de78fb7ddd5da8db735cca87c9d827f6de442a36321443ca",
+      "appAsset": true,
+      "step": "path26.runShortcut"
+    },
+    {
+      "file": "sv/saved-automation.png",
+      "sha256": "8332889965d7b6388a2df51a42a2bf218d36db7096a89b2e81d07a3b59bd6f35",
+      "appAsset": true,
+      "step": "path26.save"
+    }
+  ],
+  "app": "CrewSchedule 0.1 (4), ordinary simulator build from codex/onboarding-redesign"
+}

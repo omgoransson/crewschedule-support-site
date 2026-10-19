@@ -1,0 +1,40 @@
+{
+  "captured": "2026-10-19",
+  "device": "iPhone 17 simulator",
+  "os": "iOS 26.5 (23F77)",
+  "app": "CrewSchedule 0.1 (4)",
+  "appearance": "light",
+  "data": "Purpose-written synthetic roster, no real crew or flights. Cloud/Calendar sync disabled.",
+  "reportExample": {
+    "original": "11:30",
+    "current": "11:00",
+    "start": "10:00",
+    "end": "22:00"
+  },
+  "captures": [
+    {
+      "file": "en/detail.png",
+      "sha256": "67734421a6910f3e3e379243fba0b11c1e633f5070efa3f874dd70d6d042d331"
+    },
+    {
+      "file": "en/today.png",
+      "sha256": "d8b44f0667cb363571497835fed843b31041c00ea4f4c65eebcfe1c8aca5cdc7"
+    },
+    {
+      "file": "en/week.png",
+      "sha256": "8113b873728333c405fde5f248457c8bcd5cb5072a74a515bcb3205e34297684"
+    },
+    {
+      "file": "sv/detail.png",
+      "sha256": "514993b0af5dec5903fc9181f5a61161e2edb921a5b737eecb5457bec0c80235"
+    },
+    {
+      "file": "sv/today.png",
+      "sha256": "5ccdc4c22892f612e46f8a32d76f7780106ba2616244c37124463ba7695501b4"
+    },
+    {
+      "file": "sv/week.png",
+      "sha256": "a6d676fdd748e5f5d7106246be4cab7483cb62180f65c45e66499011bc46208b"
+    }
+  ]
+}

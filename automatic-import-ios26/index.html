@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Set up automatic schedule import on iOS 26 · CrewSchedule">
+  <meta name="color-scheme" content="light dark">
+  <title>Automatic import on iOS 26 · CrewSchedule</title>
+  <link rel="stylesheet" href="../assets/site.css?v=20261019">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <div class="wrap bar">
+      <a class="brand" href="../">CrewSchedule</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="../support/">Support</a>
+        <a href="../privacy/">Privacy</a>
+        <a class="language" href="../sv/automatic-import-ios26/" lang="sv">Svenska</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <div class="intro">
+      <p class="eyebrow">iOS 26 · iPadOS 26</p>
+      <h1>Automatic import on iOS 26</h1>
+      <p class="lead">We recommend your personal iPhone that receives your schedule email. Set up the email automation on that device. Keep this guide open on another screen if that helps.</p>
+      <p><a href="#path26.install">Start with step 1 →</a></p>
+      <p class="meta">This guide is for iOS and iPadOS 26. On version 27, use the shared shortcut offered inside CrewSchedule. Button names can vary with the system language.</p>
+    </div>
+    <div class="layout">
+      <nav class="contents" aria-label="Guide steps">
+        <strong>Guide steps</strong>
+        <a href="#path26.install">1. Save the import shortcut</a>
+        <a href="#path26.openFile">2. Find the file</a>
+        <a href="#path26.addShortcut">3. Add the shortcut</a>
+        <a href="#path26.trigger">4. Choose the email trigger</a>
+        <a href="#path26.actions">5. Create the actions</a>
+        <a href="#path26.text">6. Get the email text</a>
+        <a href="#path26.content">7. Use the email content</a>
+        <a href="#path26.runShortcut">8. Send text to CrewSchedule</a>
+        <a href="#path26.save">9. Save on one device</a>
+        <a href="#path26.firstRun">10. Check the next email</a>
+        <a href="#help">If it does not work</a>
+      </nav>
+      <article>
+        <section id="path26.install" class="guide-step">
+          <p class="eyebrow">Step 1 / 10</p>
+          <h2>Save the import shortcut</h2>
+          <p>In CrewSchedule, open Settings → Automatic import. Choose Share shortcut file, then save it to Files.</p>
+          <p class="step-check">The file is named <code>CrewSchedule Import.shortcut</code>.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/save-to-files.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/save-to-files.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing the option to save the CrewSchedule Import shortcut file to Files"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.openFile">Next step →</a>
+        </section>
+        <section id="path26.openFile" class="guide-step">
+          <p class="eyebrow">Step 2 / 10</p>
+          <h2>Find the file</h2>
+          <p>Open Files and find <code>CrewSchedule Import.shortcut</code> in the folder you chose.</p>
+          <p class="step-check">Return to this guide in CrewSchedule whenever you need the next step.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/shortcut-file.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/shortcut-file.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing CrewSchedule Import.shortcut in the Files app"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.addShortcut">Next step →</a>
+        </section>
+        <section id="path26.addShortcut" class="guide-step">
+          <p class="eyebrow">Step 3 / 10</p>
+          <h2>Add the shortcut</h2>
+          <p>Tap the file and add CrewSchedule Import in Shortcuts.</p>
+          <p class="step-check">Adding the shortcut does not create an email automation.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/add-shortcut.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/add-shortcut.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing the Add Shortcut screen for CrewSchedule Import"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.trigger">Next step →</a>
+        </section>
+        <section id="path26.trigger" class="guide-step">
+          <p class="eyebrow">Step 4 / 10</p>
+          <h2>Choose the email trigger</h2>
+          <p>In Shortcuts, open Automation, tap +, choose Email, set Sender to <code>eFlightApplication@bristowgroup.com</code> and Subject Contains to <code>Schedule For</code>, then choose Run Immediately.</p>
+          <p class="step-check">Every filter must match. Check that this is the account that receives your schedule email.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/email-filters.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/email-filters.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing the email sender, subject, and run timing filters"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.actions">Next step →</a>
+        </section>
+        <section id="path26.actions" class="guide-step">
+          <p class="eyebrow">Step 5 / 10</p>
+          <h2>Create the automation’s actions</h2>
+          <p>After the email filter, choose Create New Shortcut. This creates the actions that run when a matching email arrives.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/create-automation-actions.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/create-automation-actions.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing Create New Shortcut after setting the email filters"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.text">Next step →</a>
+        </section>
+        <section id="path26.text" class="guide-step">
+          <p class="eyebrow">Step 6 / 10</p>
+          <h2>Get the email text</h2>
+          <p>Add Get Text from Input and choose Shortcut Input.</p>
+          <p class="step-check">This action receives the content from the matching email.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/email-text-input.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/email-text-input.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing Get Text from Input with Shortcut Input selected"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.content">Next step →</a>
+        </section>
+        <section id="path26.content" class="guide-step">
+          <p class="eyebrow">Step 7 / 10</p>
+          <h2>Use the email content</h2>
+          <p>Tap Shortcut Input in Get Text from Input, expand the variable panel, and select Content.</p>
+          <p class="step-check">This passes the actual email content into the text action.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/email-content-property.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/email-content-property.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing the Content variable selected for Shortcut Input"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.runShortcut">Next step →</a>
+        </section>
+        <section id="path26.runShortcut" class="guide-step">
+          <p class="eyebrow">Step 8 / 10</p>
+          <h2>Send the text to CrewSchedule</h2>
+          <p>Below Get Text from Input, add Run Shortcut and choose CrewSchedule Import. Expand the action and set its Input to the Text result from Get Text from Input.</p>
+          <p class="step-check">Check the Input field: choosing the shortcut alone is not enough.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/run-shortcut-input.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/run-shortcut-input.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing Run Shortcut set to CrewSchedule Import with the text result as input"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.save">Next step →</a>
+        </section>
+        <section id="path26.save" class="guide-step">
+          <p class="eyebrow">Step 9 / 10</p>
+          <h2>Save on one device</h2>
+          <p>Save the automation. Keep it enabled only on the device that receives and imports your schedule emails. If the shortcut offers Allow Running When Locked in its privacy settings, enable it if you want.</p>
+          <p class="step-check">Disable the old automation before moving automatic import to another device.</p>
+          <figure class="guide-figure">
+            <a href="../assets/automation/ios26/en/saved-automation.png" target="_blank" rel="noopener"><img src="../assets/automation/ios26/en/saved-automation.png" loading="lazy" width="1206" height="2622" alt="iPhone simulator showing the saved email automation"></a>
+            <figcaption>iPhone simulator · iOS 26.5 · English interface · Tap to enlarge</figcaption>
+          </figure>
+          <a class="next-step" href="#path26.firstRun">Next step →</a>
+        </section>
+        <section id="path26.firstRun" class="guide-step">
+          <p class="eyebrow">Step 10 / 10</p>
+          <h2>Check the next schedule email</h2>
+          <p>Allow access if Shortcuts asks. Return to CrewSchedule and confirm that you have set up the automation. After the next real schedule email arrives, check import history.</p>
+          <p class="step-check">You can finish setup now; you do not need to send a test email. A manual shortcut run does not prove that the email trigger works.</p>
+        </section>
+        <section id="help">
+          <h2>If it does not work</h2>
+          <p>Check that the email arrived in the right account, that both filters match, and that the automation runs immediately. Then check that the text result is connected to Run Shortcut. Open CrewSchedule import history for errors or schedules that need review.</p>
+          <p><a href="https://support.apple.com/guide/shortcuts/communication-triggers-apdd711f9dff/9.0/ios/26">Apple’s guide to email triggers</a></p>
+          <p><a href="mailto:ola@omgmedia.se">ola@omgmedia.se</a></p>
+        </section>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap foot"><a href="../support/">← Support</a><a href="../privacy/">Privacy policy</a></div>
+  </footer>
+</body>
+</html>

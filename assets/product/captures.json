@@ -13,6 +13,30 @@
   },
   "captures": [
     {
+      "file": "da/detail.png",
+      "sha256": "8bd597be19776cd1c6ed7d09542b8f8b14a5e5793b315f31af4ba03ab4e7f91d"
+    },
+    {
+      "file": "da/today.png",
+      "sha256": "d4c089643fb7bd3001bdb148aae79a7dd76a6ef0f88306fddc494fe4aef8d058"
+    },
+    {
+      "file": "da/week.png",
+      "sha256": "828f3f8ee2550fa2d1887b27b0a86edb86745038394cb0021a826d0ebedaf211"
+    },
+    {
+      "file": "de/detail.png",
+      "sha256": "2703a724238b6ac8a5a1cdf43426b9139324832b24d117ba19487696e7ab99c0"
+    },
+    {
+      "file": "de/today.png",
+      "sha256": "b0a35dd9bfebd5b70bfe15b26f4096a7e3943f098dd39605202d0a5ed5148ca9"
+    },
+    {
+      "file": "de/week.png",
+      "sha256": "58132c196a9ac2e59a75da1f3198e577dbf6db08055b22a8fdad2b6b24157c50"
+    },
+    {
       "file": "en/detail.png",
       "sha256": "67734421a6910f3e3e379243fba0b11c1e633f5070efa3f874dd70d6d042d331"
     },
@@ -23,6 +47,42 @@
     {
       "file": "en/week.png",
       "sha256": "8113b873728333c405fde5f248457c8bcd5cb5072a74a515bcb3205e34297684"
+    },
+    {
+      "file": "fi/detail.png",
+      "sha256": "75f68ad132ea7c050d0902e390b1096151bd9de24047afe9e62f3ec80a1ac376"
+    },
+    {
+      "file": "fi/today.png",
+      "sha256": "b6c02f37212f798a44e1eea9a5e2da75089567b9dc9c9e9a6e4067975c31b786"
+    },
+    {
+      "file": "fi/week.png",
+      "sha256": "765f27daa8cc475530b9e6e24057bbfd5f41a9bff877ce7c18a1d7c26b7dd182"
+    },
+    {
+      "file": "nb/detail.png",
+      "sha256": "2efe3b86fe10fc7783c0802ef4e39bc36176e9982672ef3ef025dc62317bc493"
+    },
+    {
+      "file": "nb/today.png",
+      "sha256": "21306cd32ad94f5eb585b2439d031ab5c3645e7d23b1cf8a893eca40ba50cb8a"
+    },
+    {
+      "file": "nb/week.png",
+      "sha256": "51493b207b4f022f804c30f791cba7350082432cca7502f43d70848ab4fa0d61"
+    },
+    {
+      "file": "nl/detail.png",
+      "sha256": "55139035fcbbb44de93057e0df31c132e5b7a292074c8fcd33f0cfa03f9dec72"
+    },
+    {
+      "file": "nl/today.png",
+      "sha256": "f1d024c9920c0cb2b94fa8039eb249df78da6a18e0380f41d40598f479e400f1"
+    },
+    {
+      "file": "nl/week.png",
+      "sha256": "8369f35daf36fa764ab38b499329f26a6a48d0ef7bf3c38e285d1d1c3f694be4"
     },
     {
       "file": "sv/detail.png",
@@ -36,5 +96,14 @@
       "file": "sv/week.png",
       "sha256": "a6d676fdd748e5f5d7106246be4cab7483cb62180f65c45e66499011bc46208b"
     }
+  ],
+  "languages": [
+    "en",
+    "sv",
+    "nb",
+    "da",
+    "fi",
+    "nl",
+    "de"
   ]
 }

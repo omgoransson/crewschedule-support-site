@@ -198,5 +198,12 @@
   "in the folder you chose.": "in the folder you chose.",
   "to keep your roster.": "to keep your roster.",
   "where you need it.": "where you need it.",
-  "← Support": "← Support"
+  "← Support": "← Support",
+  "Google Calendar setup is optional. If you connect it, Google shares your verified email and account identifier so CrewSchedule can confirm the account. Google authorizes CrewSchedule to create its three calendars and read metadata such as names and identifiers for calendars you own. This helps find or recover CrewSchedule, Check in and Free. The Google API does not read event contents.": "Google Calendar setup is optional. If you connect it, Google shares your verified email and account identifier so CrewSchedule can confirm the account. Google authorizes CrewSchedule to create its three calendars and read metadata such as names and identifiers for calendars you own. This helps find or recover CrewSchedule, Check in and Free. The Google API does not read event contents.",
+  "Manage Google account permissions": "Manage Google account permissions",
+  "Updated 20 October 2026": "Updated 20 October 2026",
+  "to revoke CrewSchedule’s access. Revoking access does not remove Google calendars or existing events.": "to revoke CrewSchedule’s access. Revoking access does not remove Google calendars or existing events.",
+  "This beta’s Google setup is available only to Google accounts explicitly authorized for testing.": "This beta’s Google setup is available only to Google accounts explicitly authorized for testing.",
+  "CrewSchedule has no developer server and does not sell Google account or calendar data or use it for advertising or analytics.": "CrewSchedule has no developer server and does not sell Google account or calendar data or use it for advertising or analytics.",
+  "Setup tokens stay in memory. CrewSchedule saves your verified Google email, account identifier and the three app-calendar IDs locally so setup can resume and match calendars. This setup information stays in the app’s local data until that data is removed. Events are created, updated and reviewed through Apple Calendar in your selected calendars. Google may sync those events under its own terms. Disconnecting in the app does not delete Google calendars or events.": "Setup tokens stay in memory. CrewSchedule saves your verified Google email, account identifier and the three app-calendar IDs locally so setup can resume and match calendars. This setup information stays in the app’s local data until that data is removed. Events are created, updated and reviewed through Apple Calendar in your selected calendars. Google may sync those events under its own terms. Disconnecting in the app does not delete Google calendars or events."
 }
